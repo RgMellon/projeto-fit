@@ -1,4 +1,4 @@
 export const getAllPlanos = () => {
-  return fetch('http://localhost:8000/api/v1/planos')
+  return fetch('https://api-fit.herokuapp.com/api/v1/planos')
     .then(res => res.json())
 }
