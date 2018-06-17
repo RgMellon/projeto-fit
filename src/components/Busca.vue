@@ -1,5 +1,4 @@
 <template>
-
   <div>
     <div class="float-label busca flex">
       <input id="busca" type="search"
@@ -30,15 +29,9 @@
 </script>
 
 <style scoped>
-
-  .busca {
-    margin-top: 6rem;
-  }
-
-  .float-label {
-    position: relative;
-    height: 40px;
-    width: 500px;
+  .busca{
+    margin-top: -7rem;
+    width: 100%;
   }
 
   .float-label label,
@@ -47,6 +40,13 @@
     width: 100%;
     box-sizing: border-box;
     border: 0px;
+    background: inherit;
+  }
+
+  .float-label {
+    position: relative;
+    height: 40px;
+    width: 300px;
   }
 
   .float-label input {
@@ -57,22 +57,46 @@
 
   .float-label label {
     transition-duration: 0.2s;
-    left: 2px;
     top: 2rem;
     color: #897e7ede;
   }
-
   .float-label input {
     top: 17px;
   }
 
   .float-label input:valid + label {
-    top: 4px;
+    top: -2px;
     color: #ff8c3e;
   }
 
   input:focus {
     border-bottom: 1px solid #ff8c3e;
   }
-
+  @media(min-width: 1000px){
+    .busca {
+      margin-top: 6rem;
+    }
+    .float-label {
+      position: relative;
+      height: 40px;
+      width: 500px;
+    }
+    .float-label label,
+    .float-label input{
+      background: white;
+    }
+    .float-label label {
+      transition-duration: 0.2s;
+      left: 2px;
+      top: 2rem;
+      color: #897e7ede;
+    }
+    .float-label input:valid + label {
+      top: 4px;
+      color: #ff8c3e;
+    }
+    input:focus {
+      border-bottom: 1px solid #ff8c3e;
+    }
+  }
 </style>

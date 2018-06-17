@@ -4,7 +4,7 @@
     </header-fit>
 
     <section class="flex space-center container">
-      <campo-busca> </campo-busca>
+      <campo-busca class="campo-busca"> </campo-busca>
     </section>
 
     <section class="container">
@@ -69,6 +69,7 @@
 </script>
 
 <style scoped>
+
   .container{
     width: 100%;
     max-width: 1200px;
