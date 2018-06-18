@@ -18,7 +18,7 @@
 
   Home Responsivo :
       <p align="center">
-        <img width="600" src="https://user-images.githubusercontent.com/29661994/41515388-1e2915ee-7285-11e8-8930-8491af8ce4a5.jpg">
+        <img width="300" src="https://user-images.githubusercontent.com/29661994/41515388-1e2915ee-7285-11e8-8930-8491af8ce4a5.jpg">
       </p>
 
   Busca Responsivo :
