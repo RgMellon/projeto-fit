@@ -8,12 +8,12 @@
 
   Pagina inicial :
     <p align="center">
-      <img width="250" src="https://user-images.githubusercontent.com/29661994/41514730-919f5b10-727f-11e8-9aad-b6c849c73583.jpeg">
+      <img width="400" src="https://user-images.githubusercontent.com/29661994/41514730-919f5b10-727f-11e8-9aad-b6c849c73583.jpeg">
     </p>
 
   Busca :
       <p align="center">
-      <img width="250" src="https://user-images.githubusercontent.com/29661994/41514736-9eec456c-727f-11e8-908d-1a15dbe91d87.jpeg">
+      <img width="400" src="https://user-images.githubusercontent.com/29661994/41514736-9eec456c-727f-11e8-908d-1a15dbe91d87.jpeg">
     </p>
 ## Instalação
 
