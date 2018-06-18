@@ -20,32 +20,34 @@ pode ser vistas.
 # Parte do Front-end
 
   Na parte do front-end foi utilizado o vue-js,
-fazendo uma separação basica em paginas, pasta
-pages, que contem a pagina Home, que é o primeiro
-componente a ser chamado, nele ao ser montado
-a primeira coisa que fara é buscar os dados
-da api, getAllPlanos() que está dentro de uma
-pasta chamada service, tendo como objetivo
+fazendo uma separação basica em paginas e components, logo dentro da
+pasta pages contem o component Home que representa a pagina e é o primeiro componente a ser chamado.
+Ao ser montado a primeira coisa que fará é buscar os dados
+da api, utlizando a função getAllPlanos() que está dentro de uma
+pasta chamada service e retorna uma promise. Ela tem como objetivo
 fazer uma requisição do tipo get para nossa
 api, utilizano a fetch api e arrow function
-para ficar mais sussinto, com isso ela pega
-o resultado e transforma em json, e como é utilizado
+para ficar mais enxuto e sussinto, com o resultado é adquirido
+e transformado em json. E como é utilizado
 uma Promise, logo o acesso dela ficará disponivel
 no component Home, que por sua vez mandara esse objeto
-para um state, para ser manipulado depois.
+para um state usando this.setPlanos, para ser manipulado depois.
 
   Um detalhe que pode ser notado é que estou usando vuex
 para uma separação mais limpa.
 
   Com isso a Pagina principal Home é composta
 por outros componentes, sendo o Header, CampoBusca e Card,
-que pode ser encontrados dentro de components,
+que pode ser encontrados dentro da pasta components,
 cada um tendo apenas uma função, como por exemplo card, que
 monta a imagem e o nome conforme o loop de dados vindo da api, e busca, que apenas tem a responsabilidade de efetuar uma busca.
 
   A parte do css foi utlizado flex box para organização, com o arquivo
 dentro de css/style.css, e um reset.css para resetar as configurações
 iniciais.
+
+Como o projeto foi upado no heroku,
+> O Projeto final pode ser visto aqui, [projeto-fit](https://projeto-fit.herokuapp.com/).
 
 
 
